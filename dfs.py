@@ -5,6 +5,7 @@ d=defaultdict(list)
 sys.stdout.write(f"Enter the edges: \nEnter edge(-,-) to indicate exit input:\n")
 sys.stdout.flush()
 
+# this is just an code from chatgpt
 while True:
     edge=sys.stdin.readline().strip()
     if "," not in edge:
